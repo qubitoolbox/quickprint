@@ -4,7 +4,6 @@
 #Values can be even, odd, divisible by N, etc.
 
 def binIterator(a):
-
   for i in range(a):
     if not i % 10 == 0:
       print(bin(i), ' = ' , '%d' % (i))
