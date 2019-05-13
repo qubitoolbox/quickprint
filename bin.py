@@ -7,3 +7,7 @@ def binIterator(a):
   for i in range(a):
     if not i % 10 == 0:
       print(bin(i), ' = ' , '%d' % (i))
+
+def hexIterator(b):
+  for i in range(b):
+    if not i % 3 == 0:
