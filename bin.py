@@ -11,3 +11,4 @@ def binIterator(a):
 def hexIterator(b):
   for i in range(b):
     if not i % 3 == 0:
+      print(hex(i), ' = ' , '%d' % (i))
