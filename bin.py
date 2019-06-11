@@ -9,6 +9,6 @@ def binIterator(a):
       print(bin(i), ' = ' , '%d' % (i))
 
 def hexIterator(b):
-  for i in range(b):
-    if not i % 3 == 0:
+  for k in range(b):
+    if not k % 3 == 0:
       print(hex(i), ' = ' , '%d' % (i))
